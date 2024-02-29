@@ -43,7 +43,7 @@ int main()
     // ファイルポインタを宣言
     FILE *file = fopen("Menu.csv", "r");
 
-    // ファイルが正しく開けたかを確認
+    //エラー処理
     if (file == NULL)
     {
         perror("ファイルを開けません");
